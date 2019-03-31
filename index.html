@@ -10,25 +10,43 @@
     <link rel="stylesheet" href="style.css">
 
     <!-- Font -->
-    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Work+Sans:400,600" rel="stylesheet">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110804059-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-110804059-1');
+</script>
+
+<!--Animate.css -->
+<link rel="stylesheet" href="animate.min.css">
+
+<link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
+
+
 
     <title>Louis Boehling, Exerience Designer</title>
   </head>
   
-
-    <!-- Nav -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light">
-            <div class="container">
-              <div class="name">
-                  <a class = "largeLink" href="index.html">Louis Boehling</a>
-              </div>  
-            <div class="justify-content-end">
-                <a class = "largeLink" id = "navLink" href="index.html">Work</a>  
-                <a class = "largeLink" id = "navLink" href="about.html">About</a>
-                <a class = "largeLink" id = "navLink" href="mailto:louisboehling@gmail.com">Email</a> 
-            </div>
-            </div>
-          </nav>
+  <!-- Nav -->
+  <div class="animated slideInDown">
+  <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <div class="name">
+              <a href="index.html">Louis Boehling</a>
+          </div>  
+        <div class="justify-content-end"> 
+            <a class = "largeLink" id = "navLink first" href="about.html">About</a>
+            <a class = "largeLink" id = "navLink" href="mailto:louisboehling@gmail.com">Email</a> 
+            <a class = "largeLink" id = "navLink" href="https://drive.google.com/file/d/1WtlIYinQDi7vH9kEq6b2d2aqDdBufo31/view?usp=sharing">Resume</a>
+        </div>
+        </div>
+      </nav>
+    </div>
         
 
   <body>
@@ -36,57 +54,81 @@
     <div class="container">
 
     <!-- Intro Text -->
+    <div class="animated slideInLeft">
         <div class="row" id="component">
-            <div class="col-lg-8">
-                <p> Hi I'm Louis. Consectetur vel deleniti voluptatum iusto ex esse nihil ullam soluta reprehenderit, 
-                    voluptatem adipisci repudiandae facere maxime ratione fuga consequatur 
-                    architecto voluptate sequi minima id quaerat totam!
-                </p>
+            <div class="col-lg-12">
+                <h3>I'm an <span style="font-family: 'Archivo Black'"><strong>Experience Designer</strong></span> leveraging my skills as a
+                    <span style="font-family: 'Archivo Black'">designer</span> and <span style="font-family: 'Archivo Black'">coder</span>
+                    to create <span style="font-family: 'Archivo Black'">meaningful experiences</span>.    
+                </h3>
+            </div>
+        </div>
+    </div>
+
+ 
+
+    <!-- Portfolio Grid -->
+    <div class="animated slideInUp">
+            <div class="row" id="component">
+                <div class="col-lg-8">
+                        <a href="journeyman.html"><img src="assets/images/journeymanHeroLanding.png" id="gridImage"></a>   
+                </div>
+                <div class="col-lg-4" id="item">
+                    <p>CASE STUDY</p>
+                    <a href="journeyman.html"><h5>Journeyman</h5></a>
+                    <p>A peer-to-peer education service that connects people who are 
+                            passionate about experiential learning.</p>
+                </div>
             </div>
         </div>
 
     <!-- Portfolio Grid -->
-    <div class="row" id="component">
-        <div class="col-lg-6">
-            <a href="journeyman.html"><img src="assets/gifs/surfingWhite.gif" id="gridImage"></a>
-            <a class = "largeLink" href="journeyman.html">Journeyman</a>
-            <p id="gridText">UI/UX, Art Direction</p>
+    <div class="animated slideInUp">
+            <div class="row" id="component">
+                <div class="col-lg-8">
+                        <a href="uniqlove.html"><img src="assets/images/uniqloveGridImage.png" id="gridImage"></a>   
+                </div>
+                <div class="col-lg-4" id="item">
+                    <p>PRODUCT DESIGN</p>
+                    <a href="uniqlove.html"><h5>Uniqlove by Uniqlo Product Launch</h5></a>
+                    <p>The Uniqlo Uniqlove heart allows people to share tactile connection through heat over long distances.</p>
+                </div>
+            </div>
         </div>
-        <div class="col-lg-6">
-            <a href="bingo.html"><img src="assets/images/image.jpg" id="gridImage"></a>
-            <a class = "largeLink" href="bingo.html">Bingo Housing and Roommate Finder</a>
-            <p id="gridText">UI/UX, Art Direction</p>
-        </div>
-    </div>
 
-    <div class="row">
-            <div class="col-lg-4">
-                <a href="sourdough.html"><img src="assets/images/image.jpg" id="gridImage"></a>
-                <a class = "largeLink" href="sourdough.html">Sourdough: Baking and Eating with Passion</a>
-                <p id="gridText">Graphic Design</p>
+
+       
+        
+
+
+   
+
+        <!-- Portfolio Grid -->
+        <div class="animated slideInUp">
+                <div class="row" id="component">
+                    <div class="col-lg-8">
+                        <a href="sourdough.html"><img src="assets/images/Sourdough/intro.jpg" id="gridImage"></a>    
+                    </div>
+                    <div class="col-lg-4" id="item">
+                            <p>PASSION PROJECT</p>
+                            <a href="sourdough.html"><h5>Sourdough: Baking and Eating with Passion</h5></a>
+                            <p>Part inspiration, part how-to, part cookbook, <i>Sourdough: Baking and Eating with Passion</i> 
+                                teaches new bakers how to bake sourdough bread without fear.</p>
+                    </div>
+                </div>
             </div>
-            <div class="col-lg-4">
-                <a href="hangtag.html"><img src="assets/images/hangtags/hangtagCover.jpg" id="gridImage"></a>
-                <a class = "largeLink" href="hangtag.html">Weave the Wild Hangtags</a>
-                <p id="gridText">Graphic Design</p>
-            </div>
-            <div class="col-lg-4">
-                <a href="https://agile-atoll-36508.herokuapp.com/"><img src="assets/images/bbcLogo.png" id="gridImage"></a>
-                <a class = "largeLink" href="https://agile-atoll-36508.herokuapp.com/">BBC World News Reader</a>
-                <p id="gridText">React.js</p>
-            </div>
-        </div>
+
     
 
     
 
     <!-- Footer -->
-    <div class="row justify-content-between" id="footerComponent">
+    <div class="row justify-content-between" id="footerComponent" class="animated fadeIn">
         <div class="col-lg-6">
-            <a href="https://www.instagram.com/louisboehling/">Instagram</a>, <a href="https://www.linkedin.com/in/louis-boehling-784534149/">LinkedIn</a>, <a href="https://twitter.com/louisboehling">Twitter</a>
+            <a id="footer" href="https://www.instagram.com/louisboehling/">Instagram</a>, <a id="footer" href="https://www.linkedin.com/in/louis-boehling-784534149/">LinkedIn</a>, <a id="footer" href="https://twitter.com/louisboehling">Twitter</a>
         </div>
         <div class="col-lg-4" id = "handCode">
-            <a href="https://github.com/louisboehling">Hand coded by Louis Boehling.</a>
+            <a id="footer" href="https://github.com/louisboehling">Hand coded by Louis Boehling.</a>
         </div>
     </div>
 

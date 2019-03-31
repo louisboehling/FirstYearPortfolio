@@ -10,41 +10,81 @@
     <link rel="stylesheet" href="style.css">
 
     <!-- Font -->
-    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Work+Sans:400,600" rel="stylesheet">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110804059-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-110804059-1');
+</script>
+
+    <!--Animate.css -->
+<link rel="stylesheet" href="animate.min.css">
 
     <title>Louis Boehling, Exerience Designer</title>
   </head>
   
 
     <!-- Nav -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light">
-            <div class="container">
-              <div class="name">
-                  <a class = "largeLink" href="index.html">Louis Boehling</a>
-              </div>  
-            <div class="justify-content-end">
-                <a class = "largeLink" id = "navLink" href="index.html">Work</a>  
-                <a class = "largeLink" id = "navLink" href="about.html">About</a>
-                <a class = "largeLink" id = "navLink" href="mailto:louisboehling@gmail.com">Email</a> 
-            </div>
-            </div>
-          </nav>
+    <div class="animated fadeIn">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container">
+                      <div class="name">
+                            <a href="index.html">Louis Boehling</a>
+                      </div>  
+                    <div class="justify-content-end"> 
+                        <a class = "largeLink" id = "navLink first" href="about.html">About</a>
+                        <a class = "largeLink" id = "navLink" href="mailto:louisboehling@gmail.com">Email</a>
+                        <a class = "largeLink" id = "navLink" href="index.html">Resume</a> 
+                    </div>
+                    </div>
+                  </nav>
+                </div>
         
 
   <body>
 
     <div class="container">
+    <div class="animated fadeIn">
 
     <!-- Text -->
         <div class="row" id="component">
+            <div class="col-lg-8" id="title">
+                <h1>Weave The Wild <strong>Hangtags</strong></h1>
+            </div>
+        </div>
+
+    <!-- Text -->
+    <div class="row justify-content-between" id="component">
             <div class="col-lg-8">
-                <h1>Weave The Wild Hangtags</h1>
-                <br>
-                <p>Weave the Wild, a local textile vendor in Hoi An, Vietnam that sources its fabrics from the women of the Red Dzao 
-                    H’mong hill tribe in Sapa, Vietnam asked me to help them create some new hangtags for a new line of pillows in their shop. 
-                    Using the hill tribe dying process as inspiration, together we came up with the idea of a hangtag that looked as if
-                     it had been dipped in batik — the indigo dye used to make the textiles. We dipped pieces of card stock into the ink 
-                     to create different patterns and I reproduced them digitally for the final product. </p>
+                    <p>Weave the Wild, a local textile vendor in Hoi An, Vietnam that sources its fabrics from the women of the Red Dzao
+                        H’mong hill tribe in Sapa, Vietnam asked me to help them create some new hangtags for a new line of pillows in
+                        their shop.</p>
+                    <p>
+                        Cut off from the rest of the country, the hill tribe people have struggled to find their identity in a rapidly
+                        modernizing Vietnam. Despite Sapa’s popularity with tourists, poverty is still a reality for many of the local
+                        people who
+                        lack basic eduction and access to heath care. A percentage of my client’s profits are returned to the women of the
+                        Red Dzao on her biannual trips to Sapa.
+                    </p>
+                    <P>Using the hill tribe dying process as inspiration, together we came up with the idea of a hangtag that looked as if
+                        it had been dipped
+                        in batik — the indigo dye used to make the textiles. We dipped pieces of card stock into the ink to create
+                        different patterns. I studied how the ink flowed on the paper, the patterns made by the bubbles,
+                        and the small arrays of color from deep violets to light blues. I made
+                        a composite of the dip-dyed paper in Photoshop. We tweaked the design and placed a handwritten
+                        logo above.
+                    </p>
+            </div>
+            <div class="col-lg-3">
+                <img src="assets/images/redDzao.jpg" id="gridImage">
+                <p id="caption">A percentage of my client’s profits are returned to the women of the
+                        Red Dzao hill tribe in Sapa, Vietnam. 
+                    </p>
             </div>
         </div>
 
@@ -72,15 +112,16 @@
 
 
     <!-- Footer -->
-    <div class="row justify-content-between" id="footerComponent">
-        <div class="col-lg-6">
-            <a href="https://www.instagram.com/louisboehling/">Instagram</a>, <a href="https://www.linkedin.com/in/louis-boehling-784534149/">LinkedIn</a>, <a href="https://twitter.com/louisboehling">Twitter</a>
+    <div class="row justify-content-between" id="footerComponent" class="animated fadeIn">
+            <div class="col-lg-6">
+                <a id="footer" href="https://www.instagram.com/louisboehling/">Instagram</a>, <a id="footer" href="https://www.linkedin.com/in/louis-boehling-784534149/">LinkedIn</a>, <a id="footer" href="https://twitter.com/louisboehling">Twitter</a>
+            </div>
+            <div class="col-lg-4" id = "handCode">
+                <a id="footer" href="https://github.com/louisboehling">Hand coded by Louis Boehling.</a>
+            </div>
         </div>
-        <div class="col-lg-4" id = "handCode">
-            <a href="https://github.com/louisboehling">Hand coded by Louis Boehling.</a>
-        </div>
-    </div>
 
+    </div>
     </div>
 
     <!-- Optional JavaScript -->

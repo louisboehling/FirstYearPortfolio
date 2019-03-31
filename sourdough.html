@@ -10,41 +10,67 @@
     <link rel="stylesheet" href="style.css">
 
     <!-- Font -->
-    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Work+Sans:400,600" rel="stylesheet">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110804059-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-110804059-1');
+</script>
+
+<!--Animate.css -->
+<link rel="stylesheet" href="animate.min.css">
+
+<link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
 
     <title>Louis Boehling, Exerience Designer</title>
   </head>
   
 
     <!-- Nav -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light">
-            <div class="container">
-              <div class="name">
-                  <a class = "largeLink" href="index.html">Louis Boehling</a>
-              </div>  
-            <div class="justify-content-end">
-                <a class = "largeLink" id = "navLink" href="index.html">Work</a>  
-                <a class = "largeLink" id = "navLink" href="about.html">About</a>
-                <a class = "largeLink" id = "navLink" href="mailto:louisboehling@gmail.com">Email</a> 
-            </div>
-            </div>
-          </nav>
+    <div class="animated fadeIn">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container">
+                      <div class="name">
+                            <a href="index.html">Louis Boehling</a>
+                      </div>  
+                    <div class="justify-content-end"> 
+                        <a class = "largeLink" id = "navLink first" href="about.html">About</a>
+                        <a class = "largeLink" id = "navLink" href="mailto:louisboehling@gmail.com">Email</a>
+                        <a class = "largeLink" id = "navLink" href="https://drive.google.com/file/d/1WtlIYinQDi7vH9kEq6b2d2aqDdBufo31/view?usp=sharing">Resume</a> 
+                    </div>
+                    </div>
+                  </nav>
+                </div>
         
 
   <body>
 
     <div class="container">
+         <div class="animated fadeIn">
 
     <!-- Text -->
         <div class="row" id="component">
+            <div class="col-lg-8" id="title">
+                <h1><strong>Sourdough:</strong> Baking and Eating with Passion</h1>
+            </div>
+        </div>
+
+    <!-- Text -->
+    <div class="row justify-content-between" id="component">
             <div class="col-lg-8">
-                <h1>Sourdough: Baking and Eating with Passion</h1>
-                <br>
-                <p>In the summer of 2017 Dingo Deli, a popular sandwich shop, co-working space, and expat community center in Hoi An, Vietnam 
-                    wanted to introduce a new menu of sandwiches and dips that could be made with the deli’s popular sourdough bread. 
-                    The owner commissioned our team to put together a book about the baker and his journey. Part inspiration, part how-to, part cookbook, 
-                    <i>Sourdough: Baking and Eating with Passion</i> was one of my favorite projects
-                     I worked on during my time living in Vietnam. </p>
+                            <p>In the summer of 2017 Dingo Deli, a popular sandwich shop, co-working space, and expat community center in Hoi An, Vietnam 
+                            wanted to introduce a new menu of sandwiches and dips that could be made with the deli’s popular sourdough bread.</p> 
+                            <p>The owner commissioned our team to put together a book about the baker and his journey. Part inspiration, part how-to, part cookbook, 
+                            <i>Sourdough: Baking and Eating with Passion</i> was one of my favorite projects
+                             I worked on during my time living in Vietnam. </p>
+            </div>
+            <div class="col-lg-3">
+                <img src="assets/images/sourdoughBread.png">
             </div>
         </div>
 
@@ -125,17 +151,29 @@
             </div>
         </div>
 
+    <!-- Text -->
+    <div class="row" id="component">
+            <div class="col-lg-6">
+                <h2>Team</h2>
+                <p>Louis Boehling, Graphic Design, Copywriting<br>
+                <a href="https://katrinavarlam.com/">Katrina Varlamova</a>, Art Direction<br>
+                <a href="http://www.samkeatingphoto.com/">Sam Keating</a>, Photography<br>
+                Dayton Kim, Illustration</p>
+            </div>
+        </div>
+
 
     <!-- Footer -->
-    <div class="row justify-content-between" id="footerComponent">
-        <div class="col-lg-6">
-            <a href="https://www.instagram.com/louisboehling/">Instagram</a>, <a href="https://www.linkedin.com/in/louis-boehling-784534149/">LinkedIn</a>, <a href="https://twitter.com/louisboehling">Twitter</a>
+    <div class="row justify-content-between" id="footerComponent" class="animated fadeIn">
+            <div class="col-lg-6">
+                <a id="footer" href="https://www.instagram.com/louisboehling/">Instagram</a>, <a id="footer" href="https://www.linkedin.com/in/louis-boehling-784534149/">LinkedIn</a>, <a id="footer" href="https://twitter.com/louisboehling">Twitter</a>
+            </div>
+            <div class="col-lg-4" id = "handCode">
+                <a id="footer" href="https://github.com/louisboehling">Hand coded by Louis Boehling.</a>
+            </div>
         </div>
-        <div class="col-lg-4" id = "handCode">
-            <a href="https://github.com/louisboehling">Hand coded by Louis Boehling.</a>
-        </div>
-    </div>
 
+    </div>
     </div>
 
     <!-- Optional JavaScript -->
